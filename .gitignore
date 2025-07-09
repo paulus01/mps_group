@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# AWS CDK output
+cdk.out/
+cdk.context.json
+
+# Python environment files
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+*.log
+
+# Test and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Sagemaker artifacts
+output/
+model/
+*.joblib
+
+# Ignore dotenv and credentials
+.env
+.envrc
+*.env
+
+# Ignore AWS credentials/config
+.aws/
+
+# Ignore build artifacts
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*~

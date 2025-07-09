@@ -1,0 +1,13 @@
+bucket_name: mps-group-configured-bucket
+versioned: true
+removal_policy: DESTROY
+dataset_url: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+dataset_key: iris/iris.csv
+
+aws:
+  account: "account"
+  region: "us-east-2"
+
+sagemaker_domain:
+  domain_name: "iris-domain"
+  user_profile_name: "default-user"
